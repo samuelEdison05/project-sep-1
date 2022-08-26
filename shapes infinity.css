@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* logo */
+#ShapesInfinityLogo{
+    padding: 5px;
+    margin-right: 10px;
+}
+/* Nav Bar */
+#navbar-nav a{
+    padding: 5px;
+    margin-right: 20px;
+    transition:ease 1s;
+}
+#navbar-nav{
+    margin-right: 25px;
+}
+#getQuote{
+    border-radius: 30px;
+    padding:10px 20px;
+    background-color:#f98800;
+    color:black;
+    font-weight: 500;
+    margin-right: 50px;
+    transition: ease-in-out 0.5s;
+    border: none;
+}
+#getQuote:hover{
+    color:white;
+}
+/* Nav bar ends */
+/* home page */
+#home{
+    /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
+    /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+    /* background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%); */
+    /* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
+    /* background-image: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%); */
+    /* background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); */
+    /* background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%); */
+    /* background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%); */
+    /* background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%); */
+    
+}
+#homeImgone{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+#homeh1{
+    font-size: 5rem;
+    padding: 5px;
+    letter-spacing: 2px;
+    
+}
+#homeh5{
+    font-size: 2rem;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+#shapesinfinity{
+    color: #f98800;
+    text-shadow: 3px 3px 5px black;
+
+}
+#homebtn{
+    padding:10px;
+    border: 2px #f98800 solid;
+    border-radius: 20px;
+}
+@media screen and (max-width: 400px) {
+    #homeh1 {
+      font-size: 2.5rem;
+    }
+    #homeh5{
+        font-size: 1.5rem;
+    }
+    #workflow{
+        width: 10rem;
+
+    }
+  }
+  #homediv{
+    display: flex;
+    align-items: center;
+    display: inline;
+  }
+/* home page ends */
+/* work flow */
+#workflow{
+   width: 15rem;
+   height: auto;
+   padding: 10px;
+   margin: 5px;
+}
+#workflowh1{
+    text-align: center;
+}
+#features{
+    color: #f98800;
+}
+#featuresh3{
+    text-align: center;
+}
+#featuresdiv{
+    padding: 5px;
+    
+    
+}
+#featuresdiv h2{
+    width:14rem;
+    height: auto;
+
+}
